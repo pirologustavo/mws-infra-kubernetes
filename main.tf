@@ -22,7 +22,7 @@ data "aws_subnets" "filtered" {
 }
 
 resource "aws_eks_cluster" "mws_cluster" {
-  name     = var.cluster_name
+  name     = "mws-cluster"
   role_arn = "arn:aws:iam::646417168660:role/LabRole"
   version  = "1.31"
 

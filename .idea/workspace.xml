@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96d9889-34f4-4f7a-b3c6-f3a4c28fa9f9" name="Changes" comment="Configurado deploy.yml" />
+    <list default="true" id="b96d9889-34f4-4f7a-b3c6-f3a4c28fa9f9" name="Changes" comment="Atualizada versão EKS">
+      <change beforePath="$PROJECT_DIR$/.idea/mws-infra-kubernetes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mws-infra-kubernetes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +84,8 @@
       <updated>1788241662981</updated>
       <workItem from="1788241664260" duration="818000" />
       <workItem from="1789029196521" duration="2709000" />
-      <workItem from="1789119255081" duration="1438000" />
+      <workItem from="1789119255081" duration="2326000" />
+      <workItem from="1789168030293" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="Validado main.tf">
       <option name="closed" value="true" />
@@ -99,7 +103,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789121751980</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Configurado deploy.yml">
+      <option name="closed" value="true" />
+      <created>1789122213312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1789122213312</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Atualizada versão EKS">
+      <option name="closed" value="true" />
+      <created>1789122315440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789122315440</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Validado main.tf" />
     <MESSAGE value="Configurado deploy.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configurado deploy.yml" />
+    <MESSAGE value="Atualizada versão EKS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizada versão EKS" />
   </component>
 </project>
