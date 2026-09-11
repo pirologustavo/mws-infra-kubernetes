@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96d9889-34f4-4f7a-b3c6-f3a4c28fa9f9" name="Changes" comment="Validado main.tf">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b96d9889-34f4-4f7a-b3c6-f3a4c28fa9f9" name="Changes" comment="Configurado deploy.yml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +81,7 @@
       <updated>1788241662981</updated>
       <workItem from="1788241664260" duration="818000" />
       <workItem from="1789029196521" duration="2709000" />
-      <workItem from="1789119255081" duration="1127000" />
+      <workItem from="1789119255081" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="Validado main.tf">
       <option name="closed" value="true" />
@@ -94,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789119309053</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Configurado deploy.yml">
+      <option name="closed" value="true" />
+      <created>1789121751980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789121751980</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Validado main.tf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validado main.tf" />
+    <MESSAGE value="Configurado deploy.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configurado deploy.yml" />
   </component>
 </project>

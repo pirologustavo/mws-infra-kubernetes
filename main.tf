@@ -1,3 +1,11 @@
+terraform {
+  backend "s3" {
+    bucket = "mws-terraform-state-2026"
+    key    = "k8s/terraform.tfstate"
+    region = "us-east-1"
+  }
+}
+
 data "aws_vpc" "default" {
   default = true
 }
