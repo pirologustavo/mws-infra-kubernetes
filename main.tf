@@ -24,7 +24,7 @@ data "aws_subnets" "filtered" {
 resource "aws_eks_cluster" "mws_cluster" {
   name     = var.cluster_name
   role_arn = "arn:aws:iam::646417168660:role/LabRole"
-  version  = "1.30"
+  version  = "1.31"
 
   vpc_config {
     subnet_ids = data.aws_subnets.filtered.ids
