@@ -10,10 +10,10 @@ Para atender aos requisitos de desacoplamento, segurança e responsabilidade ún
 
 | Componente | Repositório | Descrição do Componente |
 | :--- | :--- | :--- |
-| **MWS** | `mws-app` | Código-fonte dos microsserviços (PHP/Laravel). |
-| **MWS-Serverless** | `mws-serverless-auth` | Função AWS Lambda para validação de CPF e geração de Token JWT. |
-| **MWS-Infra-K8s (Este)** | `mws-infra-k8s` | Código Terraform para provisionamento do cluster Amazon EKS e API Gateway. |
-| **MWS-Infra-DB** | `mws-infra-db` | Código Terraform para provisionamento do banco de dados Amazon RDS. |
+| **MWS** | `mws` | Código-fonte dos microsserviços (PHP/Laravel), Dockerfiles e manifestos K8s. |
+| **MWS-Serverless-Auth** | `mws-serverless-auth` | Função AWS Lambda para validação de CPF e geração de Token JWT. |
+| **MWS-Infra-Kubernetes (Este)** | `mws-infra-Kubernetes` | Código Terraform para provisionamento do cluster Amazon EKS e API Gateway. |
+| **MWS-Infra-Database** | `mws-infra-database` | Código Terraform para provisionamento do banco de dados Amazon RDS. |
 
 ---
 
